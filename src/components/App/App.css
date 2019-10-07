@@ -1,4 +1,7 @@
-.App {
-	/*position: relative;*/
+#root {
+/*	margin: 0 auto;
+	max-width: 750px;*/
+	border: 1px solid blue;
+	width: 275px;
 }
 

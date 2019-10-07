@@ -1,0 +1,64 @@
+.riding-card {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 1vh 0;
+	position: relative;
+}
+.riding-card .map {
+	display: none;
+	position: absolute;
+	z-index: -1;
+}
+
+.riding-card > header {
+	margin-bottom: 7px;
+}
+
+.riding-card .subhead {
+	color: var(--grey03);
+	margin-top: 0;
+}
+
+.riding-card .copy {
+	display: flex;
+}
+.riding-card .percent {
+	color: var(--green03);
+	font-size: 4rem;
+	line-height: 4rem;
+	margin: 0; 
+}
+.riding-card .variable-description {
+	margin: 0 0 0 5px;
+	max-width: 130px;
+}
+
+.riding-card .eln-results {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 2vh;
+}
+.riding-card .eln-results .subhead {
+	text-transform: uppercase;
+	width: 95px;
+}
+.riding-card .eln-results .swatch {
+	height: 16px;
+	margin: 0 3px 0 5px;
+	width: 16px;
+}
+.riding-card .eln-year {
+	margin: 0;
+}
+.riding-card .swatch.conservative {
+	background-color: var(--conservative)
+}
+.riding-card .swatch.green {
+	background-color: var(--green)
+}
+.riding-card .swatch.ndp {
+	background-color: var(--ndp)
+}
+.riding-card .swatch.liberal {
+	background-color: var(--liberal)
+}
