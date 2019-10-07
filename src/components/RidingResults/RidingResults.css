@@ -3,12 +3,11 @@
 	flex-direction: column;
 }
 
-.ridings-container .sub-head {
+.sub-head {
 	color: var(--grey03);
 	font-size: 1.2rem;
 	text-transform: uppercase;
 }
-
 
 
 @media screen and (min-width: 500px) {

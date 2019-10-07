@@ -4,24 +4,40 @@
 	margin: 1vh 0;
 	position: relative;
 }
-.riding-card .map {
-	display: none;
-	position: absolute;
-	z-index: -1;
-}
+
 
 .riding-card > header {
 	margin-bottom: 7px;
 }
+.riding-card > header .subhead {
+	display: none;
+}
+.riding-card .copy {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
 
 .riding-card .subhead {
 	color: var(--grey03);
-	margin-top: 0;
+	font-size: 0.9rem;
+	margin: 0;
+	text-transform: uppercase;
+}
+.riding-card .copy .subhead {
+	margin-left: 5px;
 }
 
-.riding-card .copy {
-	display: flex;
+.riding-card .gfx {
+	margin-right: 7px;
 }
+.riding-card .map {
+	position: absolute;
+	top: 0;
+	width: 125px;
+	z-index: -1;
+}
+
 .riding-card .percent {
 	color: var(--green03);
 	font-size: 4rem;
@@ -34,21 +50,25 @@
 }
 
 .riding-card .eln-results {
+	align-items: center;
 	display: flex;
 	flex-flow: row wrap;
-	margin-top: 2vh;
+	/*margin-top: 2vh;*/
 }
-.riding-card .eln-results .subhead {
+/*.riding-card .eln-results .subhead {
+	font-size: 0.9rem;
+	margin: 0;
 	text-transform: uppercase;
-	width: 95px;
-}
+	width: 120px;
+}*/
 .riding-card .eln-results .swatch {
-	height: 16px;
+	height: 12px;
 	margin: 0 3px 0 5px;
-	width: 16px;
+	width: 12px;
 }
 .riding-card .eln-year {
-	margin: 0;
+	font-size: 0.9rem;
+	margin: -4px 0;
 }
 .riding-card .swatch.conservative {
 	background-color: var(--conservative)
