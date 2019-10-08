@@ -3,6 +3,9 @@ import DropdownMenu from '../DropdownMenu/DropdownMenu';
 import ButtonRow from '../ButtonRow/ButtonRow';
 import RidingResults from '../RidingResults/RidingResults';
 
+import './ExtremeRidings.css';
+import map from './images/map.jpg';
+
 export class ExtremeRidings extends Component {
 	constructor(props) {
 		super(props);
@@ -39,6 +42,9 @@ export class ExtremeRidings extends Component {
 	render() {
 		return (
 			<Fragment>
+				<div className="map-container">
+					<img className="map" src={map} alt="background-map" />
+				</div>
 				<DropdownMenu 
 					onChange={this.selectChangeHandler}
 					options={this.props.categories}

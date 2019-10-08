@@ -1,7 +1,7 @@
 import React from 'react';
 import './RidingCard.css';
 
-import locator from './images/test-04.png';
+import locator from './images/test-01.png';
 
 const RidingCard = (props) => {
 	return (

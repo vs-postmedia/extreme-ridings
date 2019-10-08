@@ -1,6 +1,6 @@
 .button-row {
 	display: flex;
-	/*justify-content: center;*/
+	justify-content: center;
 	margin: 2vh 0;
 }
 

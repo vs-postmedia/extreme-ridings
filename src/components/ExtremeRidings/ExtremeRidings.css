@@ -1,0 +1,11 @@
+.map-container {
+	position: absolute;
+	z-index: -1;
+}
+.map-container .map {
+	width: 100%;
+}
+
+.text {
+	margin-top: 175px;
+}

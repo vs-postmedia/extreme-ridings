@@ -10,7 +10,7 @@ const cards = [1,2,3];
 const RidingResults = (props) => {
 	const settings = {
 		centerMode: true,
-		centerPadding: '10px',
+		centerPadding: '30px',
 		dots: false,
 		infinite: false,
 		speed: 500,
@@ -20,7 +20,7 @@ const RidingResults = (props) => {
 
 	return (
 		<Fragment>
-			<p className="text">Lorem ipsum text about party platform</p>
+			<p className="text">Copy about party platform. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
 			<p className="sub-head">Ridings most affected</p>
 			<Slider className="ridings-container" {...settings}>
