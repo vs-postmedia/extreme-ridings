@@ -2,15 +2,15 @@ import React, { Fragment } from 'react';
 import Slider from 'react-slick';
 import RidingCard from '../RidingCard/RidingCard';
 
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './RidingResults.css';
 
-const cards = [1,2,3];
+
 const RidingResults = (props) => {
 	const settings = {
 		centerMode: true,
-		centerPadding: '30px',
+		centerPadding: '25px',
 		dots: false,
 		infinite: false,
 		speed: 500,
@@ -18,25 +18,28 @@ const RidingResults = (props) => {
 		slidesToScroll: 1
     };
 
+    const highValues = props.ridingData.filter(d => d.high_value === 'TRUE');
+	const lowValues = props.ridingData.filter(d => d.high_value === 'FALSE');
+
 	return (
 		<Fragment>
-			<p className="text">Copy about party platform. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p className="text">{props.policyCopy}</p>
 
-			<p className="sub-head">Ridings most affected</p>
+			<p className="sub-head">Ridings that could see most impact</p>
 			<Slider className="ridings-container" {...settings}>
 				{ 
-					cards.map(card => {
-						return <RidingCard key={`affected-${card}`}></RidingCard>
+					highValues.map(card => {
+						return <RidingCard key={`affected-${card.riding_id}`} data={card}></RidingCard>
 					})
 				}
 			</Slider>
 
-			<p className="sub-head">Ridings least affected</p>
+			<p className="sub-head">Ridings that could see least impact</p>
 			<Slider className="ridings-container" {...settings}>
 				
 				{ 
-					cards.map(card => {
-						return <RidingCard key={`unaffected-${card}`}></RidingCard>
+					lowValues.map(card => {
+						return <RidingCard key={`unaffected-${card.riding_id}`} data={card}></RidingCard>
 					})
 				}
 			</Slider>

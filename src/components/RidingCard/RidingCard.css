@@ -7,15 +7,19 @@
 
 
 .riding-card > header {
+	flex: 1 100%;
 	margin-bottom: 7px;
 }
 .riding-card > header .subhead {
 	display: none;
 }
-.riding-card .copy {
+/*.riding-card .copy {
 	display: flex;
 	flex-wrap: wrap;
 	position: relative;
+}*/
+.riding-card .copy > p {
+	margin: 0 0 3px 5px;
 }
 
 .riding-card .subhead {
@@ -29,9 +33,12 @@
 }
 
 .riding-card .gfx {
-	margin-right: 7px;
+	/*height: 100px;*/
+	position: relative;
+	width: 125px;
 }
 .riding-card .map {
+	height: 100px;
 	position: absolute;
 	top: 0;
 	width: 125px;
@@ -40,13 +47,14 @@
 
 .riding-card .percent {
 	color: var(--blue02);
-	font-size: 4rem;
+	font-size: 3rem;
 	line-height: 4rem;
 	margin: 0; 
+	text-align: center;
 }
 .riding-card .variable-description {
 	margin: 0 0 0 5px;
-	max-width: 130px;
+	max-width: 175px;
 }
 
 .riding-card .eln-results {

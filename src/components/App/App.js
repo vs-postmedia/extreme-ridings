@@ -4,12 +4,12 @@ import './App.css';
 
 
 const categories = [
-	{ value: 'social-benefits', label: 'Social benefits' },
+	{ value: 'families', label: 'Families' },
 	{ value: 'income', label: 'Income' },
 	{ value: 'housing', label: 'Housing' },
-	{ value: 'climate-change', label: 'Climate change' }
+	{ value: 'transit', label: 'Transportation' }
 ];
-const parties = ['Lib', 'CPC', 'NDP', 'Greens'];
+const parties = ['LPC', 'CPC', 'NDP', 'GPC'];
 
 function App() {
 	return (

@@ -3,6 +3,9 @@ import DropdownMenu from '../DropdownMenu/DropdownMenu';
 import ButtonRow from '../ButtonRow/ButtonRow';
 import RidingResults from '../RidingResults/RidingResults';
 
+import RidingData from '../../data/riding-data.json';
+import PolicyData from '../../data/party-policy.json';
+
 import './ExtremeRidings.css';
 import map from './images/map.jpg';
 
@@ -15,28 +18,46 @@ export class ExtremeRidings extends Component {
 	}
 	state = {
 		currentCategory: null,
-		currentData: null,
+		currentData: [],
 		currentParty: null,
-		data: null
+		data: [],
+		policyCopy: ''
 	}
 
 	buttonClickHandler(id) {
 		this.setState({
-			currentParty: id
+			currentParty: id,
+			policyCopy: this.setPolicyCopy(PolicyData, id, this.state.currentCategory)
 		});
 	}
 
 	componentDidMount() {
+		const currentParty = this.props.displayParty || 'lpc';
+		const currentCategory = this.props.categories[0].value;
+
 		this.setState({
-			currentCategory: this.props.categories[0].value,
-			currentParty: this.props.displayParty || 'liberals'
+			currentCategory: currentCategory,
+			currentData: RidingData.filter(d => d.category === this.props.categories[0].value),
+			currentParty: currentParty,
+			data: RidingData,
+			policyCopy: this.setPolicyCopy(PolicyData, currentParty, currentCategory)
 		});
 	}
 
 	selectChangeHandler(val) {
 		this.setState({
-			currentCategory: val.value
+			currentCategory: val.value,
+			currentData: RidingData.filter(d => d.category === val.value),
+			policyCopy: this.setPolicyCopy(PolicyData, this.state.currentParty, val.value)
 		});
+	}
+
+	setPolicyCopy(data, id, category) {
+		const copy = data.filter(d => {
+			return d.party === id && d.category === category;
+		});
+
+		return copy[0].policy_short;
 	}
 
 	render() {
@@ -54,7 +75,8 @@ export class ExtremeRidings extends Component {
 					onClick={this.buttonClickHandler}>
 				</ButtonRow>
 				<RidingResults
-					data={this.props.currentData}>
+					ridingData={this.state.currentData}
+					policyCopy={this.state.policyCopy}>
 				</RidingResults>
 			</Fragment>
 		);
