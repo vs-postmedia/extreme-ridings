@@ -1,8 +1,12 @@
 .riding-card {
+	box-shadow: 0 1px 5px #d1d2d2;
 	display: flex;
 	flex-flow: row wrap;
 	margin: 1vh 0;
+	padding: 3px 5px;
 	position: relative;
+	width: 300px;
+	
 }
 
 
@@ -54,21 +58,19 @@
 }
 .riding-card .variable-description {
 	margin: 0 0 0 5px;
-	max-width: 175px;
+	max-width: 165px;
 }
 
 .riding-card .eln-results {
 	align-items: center;
 	display: flex;
+	flex: 1 100%;
 	flex-flow: row wrap;
-	/*margin-top: 2vh;*/
+	margin-top: 1vh;
 }
-/*.riding-card .eln-results .subhead {
-	font-size: 0.9rem;
-	margin: 0;
-	text-transform: uppercase;
-	width: 120px;
-}*/
+.riding-card .eln-results .subhead {
+	width: 125px;
+}
 .riding-card .eln-results .swatch {
 	height: 12px;
 	margin: 0 3px 0 5px;

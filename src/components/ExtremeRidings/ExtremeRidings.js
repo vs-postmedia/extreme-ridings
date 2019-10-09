@@ -63,9 +63,6 @@ export class ExtremeRidings extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="map-container">
-					<img className="map" src={map} alt="background-map" />
-				</div>
 				<DropdownMenu 
 					onChange={this.selectChangeHandler}
 					options={this.props.categories}
@@ -74,6 +71,10 @@ export class ExtremeRidings extends Component {
 					buttons={this.props.parties}
 					onClick={this.buttonClickHandler}>
 				</ButtonRow>
+				<div className="map-container">
+					<img className="map" src={map} alt="background-map" />
+				</div>
+				
 				<RidingResults
 					ridingData={this.state.currentData}
 					policyCopy={this.state.policyCopy}>

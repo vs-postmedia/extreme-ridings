@@ -9,13 +9,24 @@ import './RidingResults.css';
 
 const RidingResults = (props) => {
 	const settings = {
-		centerMode: true,
-		centerPadding: '25px',
+		// centerMode: false,
+		// centerPadding: '10px',
 		dots: false,
 		infinite: false,
 		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		responsive: [
+			{
+				breakpoint: 480,
+				settings: {
+					centerMode: true,
+					centerPadding: '30px',
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+		]
     };
 
     const highValues = props.ridingData.filter(d => d.high_value === 'TRUE');
@@ -25,7 +36,7 @@ const RidingResults = (props) => {
 		<Fragment>
 			<p className="text">{props.policyCopy}</p>
 
-			<p className="sub-head">Ridings that could see most impact</p>
+			<p className="sub-head">Ridings that could see the most impact</p>
 			<Slider className="ridings-container" {...settings}>
 				{ 
 					highValues.map(card => {
@@ -34,7 +45,7 @@ const RidingResults = (props) => {
 				}
 			</Slider>
 
-			<p className="sub-head">Ridings that could see least impact</p>
+			<p className="sub-head">Ridings that could see the least impact</p>
 			<Slider className="ridings-container" {...settings}>
 				
 				{ 
