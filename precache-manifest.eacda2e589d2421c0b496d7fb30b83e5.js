@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c84eaf819a6f674efa74f3de4153d415",
+    "revision": "2aea450d905cea3361f3ebdfa8f1f4c9",
     "url": "/extreme-ridings/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/css/2.89e5efac.chunk.css"
   },
   {
-    "revision": "f8520cec26771001416f",
+    "revision": "f22fbbeeb24b0d25a22e",
     "url": "/extreme-ridings/static/css/main.67504b54.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/js/2.0df309d1.chunk.js"
   },
   {
-    "revision": "f8520cec26771001416f",
-    "url": "/extreme-ridings/static/js/main.0f08aa16.chunk.js"
+    "revision": "f22fbbeeb24b0d25a22e",
+    "url": "/extreme-ridings/static/js/main.650e69b6.chunk.js"
   },
   {
     "revision": "7ed47f8f114e27ee5bbc",
@@ -52,16 +52,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/media/basemap.f259a3ab.png"
   },
   {
-    "revision": "d3bd1e97a8dc3c3d2f3b4125d76c4fcd",
-    "url": "/extreme-ridings/static/media/families-ridings.d3bd1e97.png"
+    "revision": "eedd793f987d56471725e65e18798cc2",
+    "url": "/extreme-ridings/static/media/families-ridings.eedd793f.png"
   },
   {
-    "revision": "3df859c24a714b9705dc48f7c25c3943",
-    "url": "/extreme-ridings/static/media/housing-ridings.3df859c2.png"
+    "revision": "452809176ac8550ce6962bd3b77e1df0",
+    "url": "/extreme-ridings/static/media/housing-ridings.45280917.png"
   },
   {
-    "revision": "f48d9c82326ebdcb979e6ad4120ad22c",
-    "url": "/extreme-ridings/static/media/income-ridings.f48d9c82.png"
+    "revision": "43f497dc06a5cad2638d4a72e36b741d",
+    "url": "/extreme-ridings/static/media/income-ridings.43f497dc.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/media/test-01.c721d5a9.png"
   },
   {
-    "revision": "459b9f44f7799391a63ed518b8d9f0c1",
-    "url": "/extreme-ridings/static/media/transit-ridings.459b9f44.png"
+    "revision": "b69fa86438b9e653f50025500bc21755",
+    "url": "/extreme-ridings/static/media/transit-ridings.b69fa864.png"
   }
 ]);
