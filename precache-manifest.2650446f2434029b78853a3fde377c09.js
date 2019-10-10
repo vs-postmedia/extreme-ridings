@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "52e7a4dbe9d8ff05bc22c3cb9e32bce0",
+    "revision": "c1ff6e1b35724f7cc7ded3a68b3ff107",
     "url": "/extreme-ridings/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/css/2.89e5efac.chunk.css"
   },
   {
-    "revision": "2b525a30867e830465da",
-    "url": "/extreme-ridings/static/css/main.01047a6d.chunk.css"
+    "revision": "8312c7231dc0caa26cbc",
+    "url": "/extreme-ridings/static/css/main.0619fc73.chunk.css"
   },
   {
     "revision": "a6536d731248ab026d1a",
     "url": "/extreme-ridings/static/js/2.0df309d1.chunk.js"
   },
   {
-    "revision": "2b525a30867e830465da",
-    "url": "/extreme-ridings/static/js/main.650e69b6.chunk.js"
+    "revision": "8312c7231dc0caa26cbc",
+    "url": "/extreme-ridings/static/js/main.a75266c0.chunk.js"
   },
   {
     "revision": "7ed47f8f114e27ee5bbc",
@@ -48,20 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/media/Shift-BoldItalic.5c3edbfd.otf"
   },
   {
-    "revision": "f259a3abcac0c44e84dda7ac6b466b85",
-    "url": "/extreme-ridings/static/media/basemap.f259a3ab.png"
+    "revision": "cf02e86e5825f51836c0748631ca7c0a",
+    "url": "/extreme-ridings/static/media/basemap.cf02e86e.png"
   },
   {
-    "revision": "eedd793f987d56471725e65e18798cc2",
-    "url": "/extreme-ridings/static/media/families-ridings.eedd793f.png"
+    "revision": "ca1c1644b86db6c999d93cf012f44b8f",
+    "url": "/extreme-ridings/static/media/families-ridings.ca1c1644.png"
   },
   {
-    "revision": "452809176ac8550ce6962bd3b77e1df0",
-    "url": "/extreme-ridings/static/media/housing-ridings.45280917.png"
+    "revision": "7c43ef4c576fffc46e770b509baff68c",
+    "url": "/extreme-ridings/static/media/housing-ridings.7c43ef4c.png"
   },
   {
-    "revision": "43f497dc06a5cad2638d4a72e36b741d",
-    "url": "/extreme-ridings/static/media/income-ridings.43f497dc.png"
+    "revision": "11bb6dae0d1f525d28b2b7ff68c43d8c",
+    "url": "/extreme-ridings/static/media/income-ridings.11bb6dae.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -84,7 +84,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/media/test-01.c721d5a9.png"
   },
   {
-    "revision": "b69fa86438b9e653f50025500bc21755",
-    "url": "/extreme-ridings/static/media/transit-ridings.b69fa864.png"
+    "revision": "a4b921b5344f091cbd92f863e31074e5",
+    "url": "/extreme-ridings/static/media/transit-ridings.a4b921b5.png"
   }
 ]);
