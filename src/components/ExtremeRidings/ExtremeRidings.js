@@ -28,7 +28,7 @@ export class ExtremeRidings extends Component {
 		this.selectChangeHandler = this.selectChangeHandler.bind(this);
 	}
 	state = {
-		currentButton: '',
+		currentButton: 'lpc',
 		currentCategory: null,
 		currentData: [],
 		currentMap: familiesLayer,
@@ -92,11 +92,14 @@ export class ExtremeRidings extends Component {
 						<img className="data-layer" src={this.state.currentMap} alt="climate-data-layer" />
 						<img className="basemap" src={map} alt="background-map" />
 					</div>
+					<div className="policy-copy">
+						<h3>Policy overview</h3>
+						<p className="text">{this.state.policyCopy}</p>
+					</div>
 				</div>
 				
 				<RidingResults
-					ridingData={this.state.currentData}
-					policyCopy={this.state.policyCopy}>
+					ridingData={this.state.currentData}>
 				</RidingResults>
 			</Fragment>
 		);

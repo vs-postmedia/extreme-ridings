@@ -9,14 +9,14 @@ const categories = [
 	{ value: 'housing', label: 'Issue: Housing' },
 	{ value: 'transit', label: 'Issue: Transportation' }
 ];
-const parties = ['LPC', 'CPC', 'NDP', 'GPC'];
+const parties = ['LPC', 'CPC', 'GPC', 'NDP'];
 
 function App() {
 	return (
 	  	<div className="App">
 	  		<ExtremeRidings 
 	  			categories={categories} 
-	  			displayParty="ndp"
+	  			displayParty="lpc"
 	  			parties={parties}>
 	  		</ExtremeRidings>
 	  	</div>

@@ -4,13 +4,19 @@
 	padding-top: 10px;
 }
 
-.button-row > button {
+.button-row > img {
 	cursor: pointer;
-	opacity: 0.4;
+	height: 50px;
+	margin: 0 5px;
+	opacity: 0.6;
 	transition: all 0.3s linear;
+	width: 50px;
 	z-index: 1;
 }
+.button-row > img:hover {
+	opacity: 1;
+}
 
-.button-row  > button.selected {
+.button-row  > img.selected {
 	opacity: 1;
 }

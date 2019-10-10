@@ -38,8 +38,6 @@ const RidingResults = (props) => {
 
 	return (
 		<Fragment>
-			<p className="text">{props.policyCopy}</p>
-
 			<p className="sub-head">Ridings that could see the most impact</p>
 			<Slider className="ridings-container" {...settings}>
 				{ 
