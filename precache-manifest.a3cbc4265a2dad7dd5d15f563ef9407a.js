@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4f55e3f0eca2c08c758b7da54536416",
+    "revision": "c84eaf819a6f674efa74f3de4153d415",
     "url": "/extreme-ridings/index.html"
   },
   {
-    "revision": "20edff701ec740a9ed70",
+    "revision": "a6536d731248ab026d1a",
     "url": "/extreme-ridings/static/css/2.89e5efac.chunk.css"
   },
   {
-    "revision": "313c42cf4b1fea98285c",
-    "url": "/extreme-ridings/static/css/main.23340ac5.chunk.css"
+    "revision": "f8520cec26771001416f",
+    "url": "/extreme-ridings/static/css/main.67504b54.chunk.css"
   },
   {
-    "revision": "20edff701ec740a9ed70",
-    "url": "/extreme-ridings/static/js/2.7f1436e2.chunk.js"
+    "revision": "a6536d731248ab026d1a",
+    "url": "/extreme-ridings/static/js/2.0df309d1.chunk.js"
   },
   {
-    "revision": "313c42cf4b1fea98285c",
-    "url": "/extreme-ridings/static/js/main.7d122981.chunk.js"
+    "revision": "f8520cec26771001416f",
+    "url": "/extreme-ridings/static/js/main.0f08aa16.chunk.js"
   },
   {
     "revision": "7ed47f8f114e27ee5bbc",
@@ -48,8 +48,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/media/Shift-BoldItalic.5c3edbfd.otf"
   },
   {
-    "revision": "3f86fefa2240e3220a2ea154f712503d",
-    "url": "/extreme-ridings/static/media/map.3f86fefa.jpg"
+    "revision": "f259a3abcac0c44e84dda7ac6b466b85",
+    "url": "/extreme-ridings/static/media/basemap.f259a3ab.png"
+  },
+  {
+    "revision": "d3bd1e97a8dc3c3d2f3b4125d76c4fcd",
+    "url": "/extreme-ridings/static/media/families-ridings.d3bd1e97.png"
+  },
+  {
+    "revision": "3df859c24a714b9705dc48f7c25c3943",
+    "url": "/extreme-ridings/static/media/housing-ridings.3df859c2.png"
+  },
+  {
+    "revision": "f48d9c82326ebdcb979e6ad4120ad22c",
+    "url": "/extreme-ridings/static/media/income-ridings.f48d9c82.png"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
@@ -70,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c721d5a947e5a3b595a123a585c3f295",
     "url": "/extreme-ridings/static/media/test-01.c721d5a9.png"
+  },
+  {
+    "revision": "459b9f44f7799391a63ed518b8d9f0c1",
+    "url": "/extreme-ridings/static/media/transit-ridings.459b9f44.png"
   }
 ]);
