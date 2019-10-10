@@ -2,7 +2,18 @@
 	margin-top: -100px;
 	z-index: -1;
 }
-.map-container .map {
+.map-container .layer-container {
+	position: relative;
+}
+.map-container .basemap {
+	width: 100%;
+}
+.map-container .data-layer {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
 	width: 100%;
 }
 

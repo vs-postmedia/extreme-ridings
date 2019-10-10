@@ -4,4 +4,5 @@
 	position: fixed;
 	transform: translateX(-50%);
 	width: 250px;
+	z-index: 5;
 }

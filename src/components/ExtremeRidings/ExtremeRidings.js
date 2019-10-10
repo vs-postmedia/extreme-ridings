@@ -7,7 +7,18 @@ import RidingData from '../../data/riding-data.json';
 import PolicyData from '../../data/party-policy.json';
 
 import './ExtremeRidings.css';
-import map from './images/map.jpg';
+import map from './images/basemap.png';
+import transitLayer from './images/transit-ridings.png';
+import incomeLayer from './images/income-ridings.png';
+import housingLayer from './images/housing-ridings.png';
+import familiesLayer from './images/families-ridings.png';
+
+const dataLayers = {
+	transit: transitLayer,
+	income: incomeLayer,
+	housing: housingLayer,
+	families: familiesLayer
+};
 
 export class ExtremeRidings extends Component {
 	constructor(props) {
@@ -19,6 +30,7 @@ export class ExtremeRidings extends Component {
 	state = {
 		currentCategory: null,
 		currentData: [],
+		currentMap: familiesLayer,
 		currentParty: null,
 		data: [],
 		policyCopy: ''
@@ -48,6 +60,7 @@ export class ExtremeRidings extends Component {
 		this.setState({
 			currentCategory: val.value,
 			currentData: RidingData.filter(d => d.category === val.value),
+			currentMap: dataLayers[val.value],
 			policyCopy: this.setPolicyCopy(PolicyData, this.state.currentParty, val.value)
 		});
 	}
@@ -72,7 +85,10 @@ export class ExtremeRidings extends Component {
 					onClick={this.buttonClickHandler}>
 				</ButtonRow>
 				<div className="map-container">
-					<img className="map" src={map} alt="background-map" />
+					<div className="layer-container">
+						<img className="data-layer" src={this.state.currentMap} alt="climate-data-layer" />
+						<img className="basemap" src={map} alt="background-map" />
+					</div>
 				</div>
 				
 				<RidingResults

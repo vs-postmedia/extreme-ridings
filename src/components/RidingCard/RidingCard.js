@@ -8,8 +8,8 @@ const RidingCard = (props) => {
 
 	const stat = data.variable_pct ? parseFloat(data.variable_pct).toFixed(1) + '%' : data.variable_total;
 
-	data.avg_age = 48;
-	data.avg_family_size = 2.4;
+	// data.avg_age = 48;
+	// data.avg_family_size = 2.4;
 
 	return (
 		<li className="riding-card">
@@ -24,9 +24,8 @@ const RidingCard = (props) => {
 			</div>
 			<div className="copy">
 				<p className="variable-description">{data.variable_desc}</p>
-				<p className="detail"><strong>Average...</strong></p>
-				<p className="detail">{`Age: ${data.avg_age}`}</p>
-				<p className="detail">{`Family size: ${data.avg_family_size}`}</p>
+				<p className="detail">{`Average age: ${data.avg_age}`}</p>
+				<p className="detail">{`Average family size: ${data.avg_family_size}`}</p>
 			</div>
 				
 				

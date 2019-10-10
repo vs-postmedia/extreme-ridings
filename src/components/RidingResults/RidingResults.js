@@ -9,19 +9,34 @@ import './RidingResults.css';
 
 const RidingResults = (props) => {
 	const settings = {
-		// centerMode: false,
-		// centerPadding: '10px',
+		centerMode: true,
+		centerPadding: '5px',
+		arrows: true,
 		dots: false,
-		infinite: false,
+		infinite: true,
+		initialSlide: 1,
 		speed: 500,
 		slidesToShow: 2,
 		slidesToScroll: 2,
 		responsive: [
 			{
-				breakpoint: 480,
+				breakpoint: 340,
 				settings: {
+					arrows: false,
 					centerMode: true,
-					centerPadding: '30px',
+					centerPadding: '5px',
+					initialSlide: 0,
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 540,
+				settings: {
+					arrows: false,
+					centerMode: true,
+					centerPadding: '25px',
+					initialSlide: 0,
 					slidesToShow: 1,
 					slidesToScroll: 1
 				}

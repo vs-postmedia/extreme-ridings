@@ -1,122 +1,82 @@
 [
-    {
-        "party": "lpc",
-        "category": "income",
-        "policy_short": "Liberals are targeting lower-income workers by promising to reduce taxes, increase the minimum wage and extend EI sickness benefits.",
-        "policy": "For Canadians earning $147,667 a year or less, the first $15,000 will be income tax free.\nIncrease the federal minimum wage to $15 per hour. Extend EI sickness benefits to 26 weeks from 15 weeks."
-    },
-    {
-        "party": "cpc",
-        "category": "income",
-        "policy_short": "Conservatives are targeting lower-income wokers and seniors with tax rebates and reductions.",
-        "policy": "People in the lowest federal income bracket ($47,630 and less) will receive a tax cut from 15 per cent to 13.75 per cent over four years.\nIncrease the Age Tax Credit by $1000, which would supposedly save seniors up to $150 and couples as much as $300. Provide low-income parents payments worth 50 per cent on the first $500 they invest annually."
-    },
-    {
-        "party": "ndp",
-        "category": "income",
-        "policy_short": "",
-        "policy": ""
-    },
-    {
-        "party": "gpc",
-        "category": "income",
-        "policy_short": "Greens are targeting lower-income workers and seniors by promising to increase the minimum wage and returns from the Canada Pension Plan.",
-        "policy": "Increase the federal minimum wage to $15 per hour.\nOvertime, increase the income replacement rate through the Canada Pension Plan from 25 to 50 per cent."
-    },
-    {
-        "party": "ppc",
-        "category": "income",
-        "policy_short": "",
-        "policy": ""
-    },
-    {
-        "party": "lpc",
-        "category": "housing",
-        "policy_short": "Liberals are focused on new & existing homeowners with incentives for first-time home-buyers and environmental retrofits.",
-        "policy": "Give homeowners and landlords interest-free loans of up to $40,000 for environmental retrofits.\nRaise the value of homes eligible for the first-time home-buyer incentive."
-    },
-    {
-        "party": "cpc",
-        "category": "housing",
-        "policy_short": "Conservaatives are focusing on homeowners by easing the mortgage process and providing tax credits for environmental retrofits.",
-        "policy": "Ease mortgage stress-test for first-time homebuyers and remove stress-test from mortgage renewals.\nAllow amortization periods on insured mortgages of 30 years for first-time homebuyers. Give eligible homes a 20 per cent refundable tax credit for green home improvements of between $1,000 and $20,000 as part of a two-year program."
-    },
-    {
-        "party": "ndp",
-        "category": "housing",
-        "policy_short": "The NDP plan to build 500,000 new affordable homes over 10 years.",
-        "policy": "Build 500,000 new affordable homes over 10 years, starting with an immediate investment of $5 billion."
-    },
-    {
-        "party": "gpc",
-        "category": "housing",
-        "policy_short": "The Green party wants to allocate 1% of the GST to housing and municipal infrastructure.",
-        "policy": "Eliminate the first-time home-buyer grant.\nAllocate one per cent of GST to housing and other municipal infrastructure."
-    },
-    {
-        "party": "ppc",
-        "category": "housing",
-        "policy_short": "",
-        "policy": ""
-    },
-    {
-        "party": "lpc",
-        "category": "transit",
-        "policy_short": "",
-        "policy": ""
-    },
-    {
-        "party": "cpc",
-        "category": "transit",
-        "policy_short": "The Conservatives plan to reintroduce a tax credit for public transit and prioritize spending on projects that shorten commute times.",
-        "policy": "Reintroduce 15-per-cent tax credit for public transit.\nPrioritize infrastructure spending towards projects that shorten commute times."
-    },
-    {
-        "party": "ndp",
-        "category": "transit",
-        "policy_short": "The NDP promised to increase federal funding for BC Ferries.",
-        "policy": "Increase annual federal funding for BC Ferries by $30 million."
-    },
-    {
-        "party": "gpc",
-        "category": "transit",
-        "policy_short": "The Green party is focused on investing in mass public and commuter transportation infrastructure.",
-        "policy": "Spend $600 million in 2020-21, rising to $720 million by 2023, to develop regional rail networks and strengthen rail connections between regions, and building high-speed rail in the Toronto-Ottawa-Quebec City triangle and the Calgary-Edmonton corridor.\nChange the Gas Tax Fund to the Municipal Fund and double current funding for transit and other urban infrastructure. Create a national fund dedicated to walking and cycling."
-    },
-    {
-        "party": "ppc",
-        "category": "transit",
-        "policy_short": "",
-        "policy": ""
-    },
-    {
-        "party": "lpc",
-        "category": "families",
-        "policy_short": "Liberals are focused on the youngest and oldest Canadians, with increases to old-age security and Canada child benefits.",
-        "policy": "Increase old age security by an extra 10 per cent once a senior turns 75.\nIncrease the Canada child benefit by 15 per cent for children under one.Give 75,000 low-income families with children up to four nights in national or provincial parks, including travel bursaries of up to $2,000."
-    },
-    {
-        "party": "cpc",
-        "category": "families",
-        "policy_short": "Conservatives are offering tax rebates and reductions for parental benefits and after-school programs.",
-        "policy": "Remove federal income tax from maternity and parental benefits.\nAllow more Canadians to qualify for the disability tax credit?For kids 16 and younger enrolled in sports or fitness classes, give up to $150 back on taxes. For kids 16 and younger enrolled in arts and learning programming, give up to $75 back on taxes."
-    },
-    {
-        "party": "ndp",
-        "category": "families",
-        "policy_short": "The NDP are focused on childcare by creating new child-care spaces and making changes to parental benefits. They are also promising a national dental care program.",
-        "policy": "Spend $10 billion over four years to create 500,000 new child-care spaces.\nEstablish free or low-cost childcare for all Canadians families by 2030.Allow new parents to condense their EI benefits so they can take shorter parental leaves while still receiving the full benefit. Increase the wage-replacement rate to 60 per cent from 55 per cent. Give full dental coverage to families with less than $70,000 total income and partial coverage for families with incomes between $70,000 and $90,000."
-    },
-    {
-        "party": "gpc",
-        "category": "families",
-        "policy_short": "Greens are offering to create a “guaranteed livable income” program.",
-        "policy": "Create a “guaranteed livable income” program."
-    },
-    {
-        "party": "ppc",
-        "category": "families",
-        "policy_short": "",
-        "policy": ""
-    }
+  {
+    "party": "lpc",
+    "category": "income",
+    "policy_short": "Liberals are targeting lower-income workers by promising to reduce taxes, increase the minimum wage and extend EI sickness benefits."
+  },
+  {
+    "party": "cpc",
+    "category": "income",
+    "policy_short": "Conservatives are targeting lower-income wokers, parents and seniors with tax rebates and reductions."
+  },
+  {
+    "party": "ndp",
+    "category": "income",
+    "policy_short": "The NDP has not promised a policy that addresses the income factors the National Post analyzed."
+  },
+  {
+    "party": "gpc",
+    "category": "income",
+    "policy_short": "Greens are targeting lower-income workers and seniors by promising to increase the minimum wage and returns from the Canada Pension Plan."
+  },
+  {
+    "party": "lpc",
+    "category": "housing",
+    "policy_short": "Liberals are focused on new & existing homeowners with incentives for first-time home-buyers and environmental retrofits."
+  },
+  {
+    "party": "cpc",
+    "category": "housing",
+    "policy_short": "Conservatives are focusing on homeowners by easing the mortgage process and providing tax credits for environmental retrofits."
+  },
+  {
+    "party": "ndp",
+    "category": "housing",
+    "policy_short": "The NDP plan to build 500,000 new affordable homes over 10 years."
+  },
+  {
+    "party": "gpc",
+    "category": "housing",
+    "policy_short": "The Green party wants to allocate 1% of the GST to housing and municipal infrastructure."
+  },
+  {
+    "party": "lpc",
+    "category": "transit",
+    "policy_short": "The Liberals have not promised a policy that addresses the transit factors the National Post analyzed."
+  },
+  {
+    "party": "cpc",
+    "category": "transit",
+    "policy_short": "The Conservatives plan to reintroduce a tax credit for public transit and prioritize spending on projects that shorten commute times."
+  },
+  {
+    "party": "ndp",
+    "category": "transit",
+    "policy_short": "The NDP promised to increase federal funding for BC Ferries."
+  },
+  {
+    "party": "gpc",
+    "category": "transit",
+    "policy_short": "The Green party is focused on investing in mass public and commuter transportation infrastructure."
+  },
+  {
+    "party": "lpc",
+    "category": "families",
+    "policy_short": "Liberals are focused on the youngest and oldest Canadians, with increases to old-age security and Canada child benefits."
+  },
+  {
+    "party": "cpc",
+    "category": "families",
+    "policy_short": "Conservatives are offering tax rebates and reductions for parental benefits and after-school programs."
+  },
+  {
+    "party": "ndp",
+    "category": "families",
+    "policy_short": "The NDP are focused on childcare by creating new child-care spaces and making changes to parental benefits. They are also promising a national dental care program."
+  },
+  {
+    "party": "gpc",
+    "category": "families",
+    "policy_short": "Greens are offering to create a “guaranteed livable income” program."
+  }
 ]
