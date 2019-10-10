@@ -8,9 +8,6 @@ const RidingCard = (props) => {
 
 	const stat = data.variable_pct ? parseFloat(data.variable_pct).toFixed(1) + '%' : data.variable_total;
 
-	// data.avg_age = 48;
-	// data.avg_family_size = 2.4;
-
 	return (
 		<li className="riding-card">
 			<header>
@@ -45,5 +42,3 @@ const RidingCard = (props) => {
 }
 
 export default RidingCard;
-
-// <img className="map" src="https://via.placeholder.com/150x150" />

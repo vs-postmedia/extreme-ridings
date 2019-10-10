@@ -5,7 +5,7 @@
 	margin: 1vh 0;
 	padding: 3px 5px;
 	position: relative;
-	width: 280px;
+	width: 290px;
 	
 }
 
@@ -15,7 +15,8 @@
 	margin-bottom: 7px;
 }
 .riding-card > header h3 {
-	color: var(--grey01);
+	font-family: Shift-Bold, serif;
+	margin: 3px 0 -3px 0;
 }
 .riding-card > header .subhead {
 	display: none;

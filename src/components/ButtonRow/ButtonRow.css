@@ -6,5 +6,11 @@
 
 .button-row > button {
 	cursor: pointer;
+	opacity: 0.4;
+	transition: all 0.3s linear;
 	z-index: 1;
+}
+
+.button-row  > button.selected {
+	opacity: 1;
 }

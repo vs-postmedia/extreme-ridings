@@ -4,10 +4,10 @@ import './App.css';
 
 
 const categories = [
-	{ value: 'families', label: 'Families' },
-	{ value: 'income', label: 'Income' },
-	{ value: 'housing', label: 'Housing' },
-	{ value: 'transit', label: 'Transportation' }
+	{ value: 'families', label: 'Issue: Families' },
+	{ value: 'income', label: 'Issue: Income' },
+	{ value: 'housing', label: 'Issue: Housing' },
+	{ value: 'transit', label: 'Issue: Transportation' }
 ];
 const parties = ['LPC', 'CPC', 'NDP', 'GPC'];
 

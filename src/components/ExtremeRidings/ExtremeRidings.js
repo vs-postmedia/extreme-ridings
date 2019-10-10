@@ -28,6 +28,7 @@ export class ExtremeRidings extends Component {
 		this.selectChangeHandler = this.selectChangeHandler.bind(this);
 	}
 	state = {
+		currentButton: '',
 		currentCategory: null,
 		currentData: [],
 		currentMap: familiesLayer,
@@ -38,6 +39,7 @@ export class ExtremeRidings extends Component {
 
 	buttonClickHandler(id) {
 		this.setState({
+			currentButton: id,
 			currentParty: id,
 			policyCopy: this.setPolicyCopy(PolicyData, id, this.state.currentCategory)
 		});
@@ -82,7 +84,8 @@ export class ExtremeRidings extends Component {
 				></DropdownMenu>
 				<ButtonRow
 					buttons={this.props.parties}
-					onClick={this.buttonClickHandler}>
+					onClick={this.buttonClickHandler}
+					currentButton={this.state.currentButton}>
 				</ButtonRow>
 				<div className="map-container">
 					<div className="layer-container">

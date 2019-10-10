@@ -7,9 +7,11 @@ const ButtonRow = (props) => {
 		{
 			props.buttons.map(d => {
 				const id = d.toLowerCase();
+
 				return <button 
 					key={id}
 					id={id}
+					className={props.currentButton === id ? 'selected' : ''}
 					onClick={() => props.onClick(id)}
 				>
 					{d}
