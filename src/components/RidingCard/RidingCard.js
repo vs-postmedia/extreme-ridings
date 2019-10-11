@@ -21,6 +21,8 @@ const RidingCard = (props) => {
 				<p className="eln-year">’06</p>
 			</Fragment>
 		)
+	} else {
+		fullResults = <p className="eln-year created-in"> (created in 2012)</p>
 	}
 
 	console.log(voteHistory)

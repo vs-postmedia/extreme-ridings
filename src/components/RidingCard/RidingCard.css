@@ -87,6 +87,11 @@
 	font-size: 0.9rem;
 	margin: -4px 0;
 }
+
+.riding-card .created-in {
+	color: var(--grey03);
+	margin-left: 3px;
+}
 .riding-card .swatch.cpc {
 	background-color: var(--conservative);
 }
