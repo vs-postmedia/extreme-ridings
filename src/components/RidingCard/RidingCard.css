@@ -5,8 +5,7 @@
 	margin: 1vh 0;
 	padding: 3px 5px;
 	position: relative;
-	width: 290px;
-	
+	width: 275px;
 }
 
 
@@ -21,11 +20,9 @@
 .riding-card > header .subhead {
 	display: none;
 }
-/*.riding-card .copy {
-	display: flex;
-	flex-wrap: wrap;
-	position: relative;
-}*/
+.riding-card .copy {
+	max-width: 150px;
+}
 .riding-card .copy > p {
 	margin: 0 0 3px 5px;
 }
@@ -41,7 +38,6 @@
 }
 
 .riding-card .gfx {
-	/*height: 100px;*/
 	position: relative;
 	width: 125px;
 }
@@ -55,7 +51,7 @@
 
 .riding-card .percent {
 	color: var(--blue02);
-	font-size: 3rem;
+	font-size: 2.8rem;
 	line-height: 4rem;
 	margin: 0; 
 	text-align: center;
@@ -64,8 +60,6 @@
 	border-bottom: 1px solid #D2d2d2;
 	height: 70px;
 	margin: 0 0 0 5px;
-	max-width: 150px;
-	/*padding-bottom: 10px;*/
 }
 
 .riding-card .eln-results {

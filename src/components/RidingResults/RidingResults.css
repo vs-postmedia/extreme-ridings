@@ -12,6 +12,23 @@
 	/*text-transform: uppercase;*/
 }
 
+.slick-list {
+	width: 100%;
+}
+.slick-prev,.slick-next {
+	background-color: lightgrey;
+	border-radius: 50%;
+	z-index: 100;
+}
+.slick-prev:hover,.slick-next:hover {
+	background-color: lightgrey;
+}
+.slick-prev {
+	left: 0;
+}
+.slick-next {
+	right: 0;
+}
 
 @media screen and (min-width: 500px) {
 	.ridings-container {

@@ -28,7 +28,7 @@
     {
         "riding_id": 46003,
         "riding_name": "Churchill—Keewatinook Aski",
-        "variable_total": 15710,
+        "variable_total": 1710,
         "variable_pct": 26.36,
         "variable_desc": "people who earn less than $10,000 after-tax",
         "category": "income",
@@ -170,7 +170,7 @@
     },
     {
         "riding_id": 24047,
-        "riding_name": "Mégantic—L'Érable",
+        "riding_name": "Mégantic—L’Érable",
         "variable_total": 70,
         "variable_pct": 0.19,
         "variable_desc": "people who take public transit to work",
@@ -404,7 +404,7 @@
     },
     {
         "riding_id": 35090,
-        "riding_name": "Toronto—St. Paul's",
+        "riding_name": "Toronto—St. Paul’s",
         "variable_total": 26410,
         "variable_pct": 49.44,
         "variable_desc": "people who take public transit to work",

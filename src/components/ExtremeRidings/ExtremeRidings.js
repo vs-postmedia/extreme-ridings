@@ -91,10 +91,10 @@ export class ExtremeRidings extends Component {
 					<div className="layer-container">
 						<img className="data-layer" src={this.state.currentMap} alt="climate-data-layer" />
 						<img className="basemap" src={map} alt="background-map" />
-					</div>
-					<div className="policy-copy">
-						<h3>Policy overview</h3>
-						<p className="text">{this.state.policyCopy}</p>
+						<div className="policy-copy">
+							<h3>Policy overview</h3>
+							<p className="text">{this.state.policyCopy}</p>
+						</div>
 					</div>
 				</div>
 				
