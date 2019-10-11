@@ -78,6 +78,7 @@ export class ExtremeRidings extends Component {
 	render() {
 		return (
 			<Fragment>
+				<h1>Canada in extremes</h1>
 				<DropdownMenu 
 					onChange={this.selectChangeHandler}
 					options={this.props.categories}

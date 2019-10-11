@@ -26,13 +26,14 @@
 .slick-prev {
 	left: 0;
 }
-.slick-next {
-	right: 0;
-}
 
-@media screen and (min-width: 500px) {
+
+@media screen and (min-width: 590px) {
 	.ridings-container {
 		flex-direction: row;
 		justify-content: space-between;
+	}
+	.slick-next {
+		right: 0;
 	}
 }

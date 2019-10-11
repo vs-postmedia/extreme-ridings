@@ -14,7 +14,6 @@
 	margin-bottom: 7px;
 }
 .riding-card > header h3 {
-	font-family: Shift-Bold, serif;
 	margin: 3px 0 -3px 0;
 }
 .riding-card > header .subhead {
@@ -42,7 +41,6 @@
 	width: 125px;
 }
 .riding-card .map {
-	height: 100px;
 	position: absolute;
 	top: 0;
 	width: 125px;
@@ -51,14 +49,14 @@
 
 .riding-card .percent {
 	color: var(--blue02);
-	font-size: 2.8rem;
+	font-size: 3rem;
 	line-height: 4rem;
 	margin: 0; 
 	text-align: center;
 }
 .riding-card .variable-description {
 	border-bottom: 1px solid #D2d2d2;
-	height: 70px;
+	height: 60px;
 	margin: 0 0 0 5px;
 }
 
@@ -67,7 +65,7 @@
 	display: flex;
 	flex: 1 100%;
 	flex-flow: row wrap;
-	margin-top: 1vh;
+	/*margin-top: 1vh;*/
 }
 .riding-card .eln-results .subhead {
 	width: 125px;
@@ -78,7 +76,7 @@
 	width: 12px;
 }
 .riding-card .eln-year {
-	font-size: 0.9rem;
+	font-size: 0.8rem;
 	margin: -4px 0;
 }
 

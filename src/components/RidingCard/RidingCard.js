@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
+import Images from './Images';
 import './RidingCard.css';
 
-import locator from './images/test-01.png';
+
 
 const RidingCard = (props) => {
 	let fullResults;
 	const data = props.data;
 
 	const voteHistory = data.eln_results.split(',');
+	const locator = Images.filter(d => d.id === data.riding_id);
 	const stat = data.variable_pct ? parseFloat(data.variable_pct).toFixed(1) + '%' : data.variable_total;
 
 	if (voteHistory[2] !== 'NA') {
@@ -25,8 +27,9 @@ const RidingCard = (props) => {
 		fullResults = <p className="eln-year created-in"> (created in 2012)</p>
 	}
 
-	console.log(voteHistory)
+	console.log(data)
 
+	
 	return (
 		<li className="riding-card">
 			<header>
@@ -36,12 +39,12 @@ const RidingCard = (props) => {
 			
 			<div className="gfx">
 				<p className="percent">{stat}</p>
-				<img className="map" src={locator} alt="locator map"/>
+				<img className="map" key={data.riding_id} src={locator[0].url} alt="locator map"/>
 			</div>
 			<div className="copy">
 				<p className="variable-description">{data.variable_desc}</p>
 				<p className="detail">{`Average age: ${data.avg_age}`}</p>
-				<p className="detail">{`Average family size: ${data.avg_family_size}`}</p>
+				<p className="detail">{`Median after-tax income: $${numberWithCommas(data.med_inc_at)}`}</p>
 			</div>
 				
 				
@@ -54,6 +57,10 @@ const RidingCard = (props) => {
 				</div>
 		</li>
 	)
+}
+
+function numberWithCommas(x) {
+	return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 export default RidingCard;
