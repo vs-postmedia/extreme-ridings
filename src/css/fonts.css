@@ -1,31 +1,31 @@
 /* SHIFT */
 @font-face {
 	font-family: 'Shift-Bold';
-	font-style: normal;
 	font-weight: 400;
-	font-src: url('../fonts/Shift-Bold.otf') format('otf')
+	font-src: local('Shift-Bold'), url('../fonts/Shift-Bold.otf') format('otf')
 }
 @font-face {
 	font-family: 'Shift-BoldItalic';
-	font-style: italic;
-	font-weight: 800;
-	src: url('../fonts/Shift-BoldItalic.otf') format('otf')
+	font-weight: 400;
+	src: local('Shift-BoldItalic'), url('../fonts/Shift-BoldItalic.otf') format('otf')
 }
 
 /* BENTON SANS */
 @font-face {
 	font-family: 'BentonSansCond-Regular';
-	src: url('../fonts/BentonSansCond-Regular.otf') format('otf')
+	src: local('BentonSansCond-Regular'), url('../fonts/BentonSansCond-Regular.otf') format('otf')
 }
 @font-face {
 	font-family: 'BentonSansCond-RegItalic';
-	src: url('../fonts/BentonSansCond-RegItalic.otf') format('otf')
+	src: local('BentonSansCond-RegItalic'), url('../fonts/BentonSansCond-RegItalic.otf') format('otf')
 }
 @font-face {
 	font-family: 'BentonSansCond-Bold';
-	src: url('../fonts/BentonSansCond-Bold.otf') format('otf')
+	font-weight: 400;
+	src: local('BentonSansCond-Bold'), url('../fonts/BentonSansCond-Bold.otf') format('otf')
 }
 @font-face {
 	font-family: 'BentonSansCond-BoldItalic';
-	src: url('../fonts/BentonSansCond-BoldItalic.otf') format('otf')
+	font-weight: 400;
+	src: local('BentonSansCond-BoldItalic'), url('../fonts/BentonSansCond-BoldItalic.otf') format('otf')
 }

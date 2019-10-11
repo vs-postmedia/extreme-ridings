@@ -27,9 +27,6 @@ const RidingCard = (props) => {
 		fullResults = <p className="eln-year created-in"> (created in 2012)</p>
 	}
 
-	console.log(data)
-
-	
 	return (
 		<li className="riding-card">
 			<header>

@@ -22,6 +22,7 @@ const ButtonRow = (props) => {
 				const id = d.toLowerCase();
 
 				return <img src={logoUrls[id]}
+					alt="party logo"
 					key={id}
 					id={id}
 					className={props.currentButton === id ? 'selected' : ''}
