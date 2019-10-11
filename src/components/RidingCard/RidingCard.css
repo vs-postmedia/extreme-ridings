@@ -87,15 +87,21 @@
 	font-size: 0.9rem;
 	margin: -4px 0;
 }
-.riding-card .swatch.conservative {
-	background-color: var(--conservative)
+.riding-card .swatch.cpc {
+	background-color: var(--conservative);
 }
-.riding-card .swatch.green {
-	background-color: var(--green)
+.riding-card .swatch.gpc {
+	background-color: var(--green);
 }
 .riding-card .swatch.ndp {
-	background-color: var(--ndp)
+	background-color: var(--ndp);
 }
-.riding-card .swatch.liberal {
-	background-color: var(--liberal)
+.riding-card .swatch.lpc {
+	background-color: var(--liberal);
+}
+.riding-card .swatch.bq {
+	background-color: var(--bloc);
+}
+.riding-card .swatch.ind {
+	background-color: var(--grey03);
 }
