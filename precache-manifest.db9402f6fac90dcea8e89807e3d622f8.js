@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4b00cb63809183b8bd9a7017f7e17f3",
+    "revision": "666efe735d1fb9c249f2b874aa9ac27e",
     "url": "/extreme-ridings/index.html"
   },
   {
-    "revision": "258727dc06ef9623fe18",
+    "revision": "ecd06ce6e1029a4b2fb8",
     "url": "/extreme-ridings/static/css/2.89e5efac.chunk.css"
   },
   {
-    "revision": "a2c3d33d442701f92501",
-    "url": "/extreme-ridings/static/css/main.3108630e.chunk.css"
+    "revision": "88c01c9e49b1155f3f71",
+    "url": "/extreme-ridings/static/css/main.138938b9.chunk.css"
   },
   {
-    "revision": "258727dc06ef9623fe18",
-    "url": "/extreme-ridings/static/js/2.e79541e1.chunk.js"
+    "revision": "ecd06ce6e1029a4b2fb8",
+    "url": "/extreme-ridings/static/js/2.bbabd843.chunk.js"
   },
   {
-    "revision": "a2c3d33d442701f92501",
-    "url": "/extreme-ridings/static/js/main.abd01871.chunk.js"
+    "revision": "88c01c9e49b1155f3f71",
+    "url": "/extreme-ridings/static/js/main.612a779c.chunk.js"
   },
   {
     "revision": "7ed47f8f114e27ee5bbc",
