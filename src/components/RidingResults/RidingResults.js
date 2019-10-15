@@ -23,7 +23,7 @@ const RidingResults = (props) => {
 					// arrows: false,
 					centerMode: true,
 					centerPadding: '30px',
-					initialSlide: 1,
+					initialSlide: 0,
 					slidesToShow: 1,
 					slidesToScroll: 1,
 					swipeToSlide: true,
