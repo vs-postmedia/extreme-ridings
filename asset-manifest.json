@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/extreme-ridings/static/css/main.8916bd9b.chunk.css",
+    "main.css": "/extreme-ridings/static/css/main.2c5a75bc.chunk.css",
     "main.js": "/extreme-ridings/static/js/main.54365f41.chunk.js",
     "main.js.map": "/extreme-ridings/static/js/main.54365f41.chunk.js.map",
     "runtime~main.js": "/extreme-ridings/static/js/runtime~main.32e6952c.js",
@@ -9,10 +9,10 @@
     "static/js/2.bbabd843.chunk.js": "/extreme-ridings/static/js/2.bbabd843.chunk.js",
     "static/js/2.bbabd843.chunk.js.map": "/extreme-ridings/static/js/2.bbabd843.chunk.js.map",
     "index.html": "/extreme-ridings/index.html",
-    "precache-manifest.25c4996c290788ce814a5830f1ce75cb.js": "/extreme-ridings/precache-manifest.25c4996c290788ce814a5830f1ce75cb.js",
+    "precache-manifest.cd7cb65f568278e3afa3b057fa9bad5c.js": "/extreme-ridings/precache-manifest.cd7cb65f568278e3afa3b057fa9bad5c.js",
     "service-worker.js": "/extreme-ridings/service-worker.js",
     "static/css/2.89e5efac.chunk.css.map": "/extreme-ridings/static/css/2.89e5efac.chunk.css.map",
-    "static/css/main.8916bd9b.chunk.css.map": "/extreme-ridings/static/css/main.8916bd9b.chunk.css.map",
+    "static/css/main.2c5a75bc.chunk.css.map": "/extreme-ridings/static/css/main.2c5a75bc.chunk.css.map",
     "static/media/BentonSansCond-Bold.otf": "/extreme-ridings/static/media/BentonSansCond-Bold.6f6753fd.otf",
     "static/media/BentonSansCond-BoldItalic.otf": "/extreme-ridings/static/media/BentonSansCond-BoldItalic.a6640d89.otf",
     "static/media/BentonSansCond-RegItalic.otf": "/extreme-ridings/static/media/BentonSansCond-RegItalic.69a4217c.otf",
