@@ -35,7 +35,7 @@ const RidingResults = (props) => {
 
 	return (
 		<Fragment>
-			<p className="sub-head">Ridings that could see the most impact</p>
+			<p className="sub-head">Ridings that could see the most impact from election promises</p>
 			<Slider className="ridings-container" {...settings}>
 				{ 
 					highValues.map(card => {
@@ -44,7 +44,7 @@ const RidingResults = (props) => {
 				}
 			</Slider>
 
-			<p className="sub-head">Ridings that could see the least impact</p>
+			<p className="sub-head">Ridings that could see the least impact from election promises</p>
 			<Slider className="ridings-container" {...settings}>
 				
 				{ 
