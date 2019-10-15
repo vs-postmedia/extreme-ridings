@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8befe48850f121d5f51698f347fa3c0",
+    "revision": "dae1f816a56c414636989a605d942e5a",
     "url": "/extreme-ridings/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extreme-ridings/static/css/2.89e5efac.chunk.css"
   },
   {
-    "revision": "4f490cfc60bbe8a7f4f0",
-    "url": "/extreme-ridings/static/css/main.2773e950.chunk.css"
+    "revision": "4e7a56ba9bd716a26b8c",
+    "url": "/extreme-ridings/static/css/main.f12e39df.chunk.css"
   },
   {
     "revision": "ecd06ce6e1029a4b2fb8",
     "url": "/extreme-ridings/static/js/2.bbabd843.chunk.js"
   },
   {
-    "revision": "4f490cfc60bbe8a7f4f0",
+    "revision": "4e7a56ba9bd716a26b8c",
     "url": "/extreme-ridings/static/js/main.612a779c.chunk.js"
   },
   {
