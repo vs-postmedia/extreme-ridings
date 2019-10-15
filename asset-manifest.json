@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/extreme-ridings/static/css/main.2c5a75bc.chunk.css",
-    "main.js": "/extreme-ridings/static/js/main.54365f41.chunk.js",
-    "main.js.map": "/extreme-ridings/static/js/main.54365f41.chunk.js.map",
+    "main.js": "/extreme-ridings/static/js/main.1271fde9.chunk.js",
+    "main.js.map": "/extreme-ridings/static/js/main.1271fde9.chunk.js.map",
     "runtime~main.js": "/extreme-ridings/static/js/runtime~main.32e6952c.js",
     "runtime~main.js.map": "/extreme-ridings/static/js/runtime~main.32e6952c.js.map",
     "static/css/2.89e5efac.chunk.css": "/extreme-ridings/static/css/2.89e5efac.chunk.css",
     "static/js/2.bbabd843.chunk.js": "/extreme-ridings/static/js/2.bbabd843.chunk.js",
     "static/js/2.bbabd843.chunk.js.map": "/extreme-ridings/static/js/2.bbabd843.chunk.js.map",
     "index.html": "/extreme-ridings/index.html",
-    "precache-manifest.cd7cb65f568278e3afa3b057fa9bad5c.js": "/extreme-ridings/precache-manifest.cd7cb65f568278e3afa3b057fa9bad5c.js",
+    "precache-manifest.e7d918ce9509c19e80b8ef7cef4dcbb0.js": "/extreme-ridings/precache-manifest.e7d918ce9509c19e80b8ef7cef4dcbb0.js",
     "service-worker.js": "/extreme-ridings/service-worker.js",
     "static/css/2.89e5efac.chunk.css.map": "/extreme-ridings/static/css/2.89e5efac.chunk.css.map",
     "static/css/main.2c5a75bc.chunk.css.map": "/extreme-ridings/static/css/main.2c5a75bc.chunk.css.map",
