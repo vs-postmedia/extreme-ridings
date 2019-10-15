@@ -15,16 +15,18 @@ const RidingResults = (props) => {
 		speed: 500,
 		slidesToShow: 2,
 		slidesToScroll: 2,
+		swipeToSlide: true,
 		responsive: [
 			{
-				breakpoint: 540,
+				breakpoint: 600,
 				settings: {
 					// arrows: false,
 					centerMode: true,
-					centerPadding: '60px',
+					// centerPadding: '30px',
 					initialSlide: 1,
 					slidesToShow: 1,
-					slidesToScroll: 1
+					slidesToScroll: 1,
+					swipeToSlide: true,
 				}
 			}
 		]

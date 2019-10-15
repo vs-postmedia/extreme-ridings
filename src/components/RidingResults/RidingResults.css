@@ -1,6 +1,7 @@
 .ridings-container {
 	display: flex;
 	flex-direction: column;
+	margin-bottom: 15px;
 }
 
 .sub-head {
@@ -26,7 +27,14 @@
 .slick-prev {
 	left: 0;
 }
-
+.slick-next {
+		right: 0px;
+	}
+@media screen and (min-width: 450px) {
+	.slick-next {
+		right: 45px;
+	}
+}
 
 @media screen and (min-width: 590px) {
 	.ridings-container {
