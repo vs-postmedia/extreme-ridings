@@ -22,7 +22,7 @@ const RidingResults = (props) => {
 				settings: {
 					// arrows: false,
 					centerMode: true,
-					// centerPadding: '30px',
+					centerPadding: '30px',
 					initialSlide: 1,
 					slidesToShow: 1,
 					slidesToScroll: 1,
